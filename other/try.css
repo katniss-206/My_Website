@@ -1,0 +1,43 @@
+.skill {
+    width: 100%;
+    height: auto;
+    margin: 20px;
+    padding: 10px 20px 40px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.programming_wrap {
+    padding: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    background-color: #ECF8F8;
+}
+
+.card03 {
+    padding: 20px;
+    margin: 10px 10px;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+}
+
+.otherSkill_wrap {
+    padding: 20px;
+    background-color: #ECF8F8;
+    position: relative;
+}
+
+.box02 {
+
+    width: 90%;
+    height: auto;
+    display: grid;
+    padding-top: 40px;
+    grid-template-columns: repeat(4, 1fr);
+}

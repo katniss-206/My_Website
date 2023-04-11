@@ -1,0 +1,68 @@
+.circle-wrap {
+    margin: 40px;
+    width: 180px;
+    height: 180px;
+    background: #ECF8F8;
+    border-radius: 50%;
+    position: relative;
+}
+
+.circle-wrap .circle .mask,
+.circle-wrap .circle .fill {
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.circle-wrap .circle .mask {
+    clip: rect(0px, 180px, 180px, 80px);
+}
+
+.mask .fill {
+    clip: rect(0px, 95px, 180px, 0px);
+    background-color: #E6BEAE;
+}
+
+.mask.full,
+.circle .fill {
+    animation: fill ease-in-out 5s;
+    transform: rotate(120deg);
+}
+
+.inside-circle img {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@keyframes fill {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(120deg);
+    }
+}
+
+/*java*/
+
+.mask.full01,
+.circle .fill01 {
+    animation: fill01 ease-in-out 5s;
+    transform: rotate(270deg);
+}
+
+@keyframes fill01 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(270deg);
+    }
+}

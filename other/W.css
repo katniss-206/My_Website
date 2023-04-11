@@ -1,0 +1,134 @@
+/*個人技能*/
+.skill {
+    width: 100%;
+    height: auto;
+    margin: 20px;
+    padding: 10px 20px 40px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.programming_wrap {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #ECF8F8;
+    position: relative;
+}
+
+.title01 img {
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    width: 287px;
+    height: 26px;
+
+}
+
+.box01 {
+    width: 70%;
+    height: auto;
+    margin-top: 50px;
+    background-color: #ECF8F8;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.card03 {
+    padding: 20px;
+    margin: 10px 10px;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+}
+
+/*靜態進度條*/
+.circle {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    position: relative;
+    background-color: #ECF8F8;
+}
+
+.color01 {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-image: conic-gradient(#E6BEAE 100deg, #ECF8F8 260deg);
+}
+
+.color02 {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-image: conic-gradient(#E6BEAE 210deg, #ECF8F8 150deg);
+}
+
+.color03 {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-image: conic-gradient(#E6BEAE 180deg, #ECF8F8 210deg);
+}
+
+.color04 {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-image: conic-gradient(#E6BEAE 30deg, #ECF8F8 330deg);
+}
+
+.color05 {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-image: conic-gradient(#E6BEAE 290deg, #ECF8F8 70deg);
+}
+
+.inside-circle img {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+}
+
+/*個人專長*/
+.otherSkill_wrap {
+    padding: 20px;
+    background-color: #ECF8F8;
+    position: relative;
+}
+
+.title02 img {
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    width: 177px;
+    height: 26px;
+
+}
+
+.box02 {
+
+    width: 90%;
+    height: auto;
+    display: grid;
+    padding-top: 40px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+
+.skillName {
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding: 20px;
+
+}
